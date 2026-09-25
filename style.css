@@ -585,7 +585,15 @@ main {
 
 /* Aquì empezamos a escribir los elementos que son solo para la impresión*/
 
+.creditos{
+    font-size: 0.85rem;
+}
+
 .print-only{
+    display: none;
+}
+
+.colophon{
     display: none;
 }
 
@@ -660,8 +668,13 @@ main {
         font-variation-settings: "wght" 300;
     }
 
+    .creditos{
+        display: none;
+    }
+
     .colophon{
-        padding: 2rem 6vw 3rem;
+        display: block;
+        padding: 2rem 6vw 3rem 0;
         font-size: 0.85rem;
     }
 
