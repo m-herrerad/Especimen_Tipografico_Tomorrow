@@ -650,6 +650,7 @@ main {
 
     .print-only{
         display: block;
+        text-align: center;
     }
 
     .print-note{
@@ -659,11 +660,16 @@ main {
         font-variation-settings: "wght" 300;
     }
 
+    .colophon{
+        padding: 2rem 6vw 3rem;
+        font-size: 0.85rem;
+    }
+
     /* Enlaces */
     .colophon a::after {
         content: " (" attr(href) ")";
         font-size: 8pt;
-        color: var(--acento-suave);
+        color: #040404;
     }
 
     /* Encabezado */
@@ -689,7 +695,6 @@ main {
     }
 
     .explicacion{
-        position: fixed;
         font-size: 20px;
     }
 
